@@ -1,0 +1,94 @@
+
+/* Custom dessign with class */
+body {
+
+	background-color: #ddf3f5;
+	color: rgba(30 30 30 );
+	font-family:font-family: 'Lora', serif;
+	font-weight: bold;
+
+}
+
+h1, h2, h3 {
+
+	font-family:font-family: 'Roboto', sans-serif;
+	
+}
+a {
+	text-decoration: none;
+	color:rgba(100 100 100);
+	font-family:font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color:red;
+	font-size: 32px;
+
+}
+
+h2 {
+	color: rgba(100 100 100);
+	font-size: 24px;
+	font-weight: lighter;
+}
+a:hover {
+	color:blue;
+}
+
+.container {
+	width: 700px;
+	margin:40px auto;
+}
+
+.card-white {
+	background-color: wheat;
+	padding:20px;
+	box-shadow: 10px 10px 30px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 60px 50px;
+	text-align: center;
+
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+
+/* Custom dessign with class */
+
+
+.img-circle {
+	border-radius: 50%
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+
+}
+
+.list-inline li {
+	
+
+}
+
+.list-inline i {
+	font-size: 100px;
+}
+
+
+element.style {
+	background: white;
+	padding: 60px;
+	margin: 50px auto;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0);
+	border-radius: 94px;
+}
